@@ -39,6 +39,7 @@ type Triangle struct {
 	Height float64
 }
 
+// Area method for triangle shape
 func (t Triangle) Area() float64 {
 	return 0.5 * t.Base * t.Height
 }
